@@ -18,10 +18,7 @@ export const fetchProjects = async (
       .join('&');
 
     const response = await fetch(
-      `${API_URL}/AllProjects?pageSize=${pageSize}&pageNum=${pageNum}${selectedCategories.lenth ? `&${categoryParams}` : ''}`,
-      {
-        credentials: 'include',
-      }
+      `${API_URL}/AllProjects?pageSize=${pageSize}&pageNum=${pageNum}${selectedCategories.length ? `&${categoryParams}` : ''}`
     );
 
     if (!response.ok) {
@@ -31,6 +28,7 @@ export const fetchProjects = async (
     return await response.json();
   } catch (error) {
     console.error('Error fetching projects:', error);
+    throw error;
   }
 };
 

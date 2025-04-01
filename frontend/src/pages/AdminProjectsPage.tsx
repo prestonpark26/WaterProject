@@ -3,6 +3,7 @@ import { deleteProject, fetchProjects } from '../api/ProjectsAPI';
 import Pagination from '../components/Pagination';
 import NewProjectForm from '../components/NewProjectForm';
 import EditProjectForm from '../components/EditProjectForm';
+import { Project } from '../types/Project';
 
 const AdminProjectsPage = () => {
   const [projects, setProjects] = useState<Project[]>([]);
@@ -105,7 +106,7 @@ const AdminProjectsPage = () => {
               <td>{p.projectType}</td>
               <td>{p.projectRegionalProgram}</td>
               <td>{p.projectImpact}</td>
-              <td>{p.ProjectFunctionalityStatus}</td>
+              <td>{p.projectFunctionalityStatus}</td>
               <td>
                 <button onClick={() => setEditingProject(p)}>Edit</button>
                 <button onClick={() => handleDelete(p.projectId)}>
