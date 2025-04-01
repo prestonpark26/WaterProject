@@ -68,3 +68,5 @@ C:\Users\prest\OneDrive\Winter2025\IS413\WaterProject\backend\WaterProject.API\o
 C:\Users\prest\OneDrive\Winter2025\IS413\WaterProject\backend\WaterProject.API\obj\Debug\net8.0\WaterProject.API.pdb
 C:\Users\prest\OneDrive\Winter2025\IS413\WaterProject\backend\WaterProject.API\obj\Debug\net8.0\WaterProject.API.genruntimeconfig.cache
 C:\Users\prest\OneDrive\Winter2025\IS413\WaterProject\backend\WaterProject.API\obj\Debug\net8.0\ref\WaterProject.API.dll
+C:\Users\prest\OneDrive\Winter2025\IS413\WaterProject\backend\WaterProject.API\obj\Debug\net8.0\WaterProject.API.sourcelink.json
+C:\Users\prest\OneDrive\Winter2025\IS413\WaterProject\backend\WaterProject.API\bin\Debug\net8.0\WaterProject.sqlite
